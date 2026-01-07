@@ -96,7 +96,7 @@ with b:
 # =========================
 # AI Copilot: Narrative Summary
 # =========================
-from app.utils.ai_narrative import (
+from utils.ai_narrative import (
     NarrativeInputs,
     generate_rule_based_summary,
     generate_ai_summary_with_openai,
