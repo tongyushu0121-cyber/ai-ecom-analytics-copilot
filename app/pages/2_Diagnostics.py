@@ -2,7 +2,7 @@ import streamlit as st
 import matplotlib.pyplot as plt
 
 from datetime import timedelta
-from app.utils.diagnostics import slice_by_date, compute_kpis, kpi_delta, drivers, price_volume_mix
+from utils.diagnostics import slice_by_date, compute_kpis, kpi_delta, drivers, price_volume_mix
 
 st.set_page_config(page_title="Diagnostics", layout="wide")
 st.title("Diagnostics: What changed and why?")
